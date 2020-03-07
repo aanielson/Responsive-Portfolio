@@ -144,38 +144,11 @@ a:link, a:visited, a:hover, a:active {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1025px) {
-    body {
-        background-image: none;
-        background-color: burlywood;
-    }
-    h2 {
-        width: 650px;
-    }
-    .main {
-        width: 700px;
-    }
-    #container {
-        width: 700px;
-    }
-    #contact-info {
-        width: 650px;
-    }
-    #contact-name {
-        width: 650px;
-    }
-    #contact-email {
-        width: 650px;
-    }
-    #contact-message {
-        width: 650px;
-    }
-    #container {
-        width: 700px;
-    }
+@media screen and (max-width: 980px) {
+   
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     body {
         background-image: url(../images/qbkls.png);
     }
@@ -199,5 +172,11 @@ a:link, a:visited, a:hover, a:active {
     }
     #contact-message {
         width: 480px;
+    }
+}
+
+@media screen and (max-width: 640) {
+    header {
+        position: static;
     }
 }
