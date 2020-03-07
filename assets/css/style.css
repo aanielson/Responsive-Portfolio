@@ -1,0 +1,203 @@
+header {
+    display: block;
+    background-color: #ffffff;
+    border-bottom: solid  #dddddd;
+    width: 100%;
+    height: 100px;
+    margin: -1px;
+}
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/qbkls.png);
+    background-repeat: repeat;
+}
+footer {
+    display: block;
+    background-color: #666666;
+    border-top:8px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 30px;
+    height: 100px;
+    width: 100%;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li {
+    display: inline;
+}
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    font-size: 24px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 38px;
+    margin: 0px;
+    width: 190px;
+}
+h2 {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-style: bold;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    display: block;
+    border-bottom: solid #dddddd;
+    width: 900px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.main {
+    display: block;
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff;
+    border: solid  #dddddd;
+    min-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+.portfolio-item {
+    position: relative;
+    float: left;
+}
+.portfolio-name {
+    background: #4aaaa5;
+    height: 20px;
+    width: 433px;
+    padding: 20px 0px;
+    margin: 180px 0px 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    float: left;
+}
+.portfolio-img {
+    width: 433px;
+    height: 250px;
+    margin: 30px 0px 0px 30px;
+    position: relative;
+    float: left;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+#last {
+    margin-bottom: 30px;
+}
+#img-profile {
+    width: 200px;
+    float: left;
+    left: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#container {
+    display: block;
+    margin: auto;
+    width: 960px;
+}
+#contact-info {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 900px;
+}
+#contact-name {
+    width: 900px;
+}
+#contact-email {
+    width: 900px;
+}
+#contact-message {
+    width: 900px;
+    height: 200px;
+}
+#button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1025px) {
+    body {
+        background-image: none;
+        background-color: burlywood;
+    }
+    h2 {
+        width: 650px;
+    }
+    .main {
+        width: 700px;
+    }
+    #container {
+        width: 700px;
+    }
+    #contact-info {
+        width: 650px;
+    }
+    #contact-name {
+        width: 650px;
+    }
+    #contact-email {
+        width: 650px;
+    }
+    #contact-message {
+        width: 650px;
+    }
+    #container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-image: url(../images/qbkls.png);
+    }
+    h2 {
+        width: 480px;
+    }
+    .main {
+        width: 530px;
+    }
+    #container {
+        width: 530px;
+    }
+    #contact-info {
+        width: 530px;
+    }
+    #contact-name {
+        width: 480px;
+    }
+    #contact-email {
+        width: 480px;
+    }
+    #contact-message {
+        width: 480px;
+    }
+}
