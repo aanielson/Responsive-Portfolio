@@ -194,32 +194,9 @@ a:link, a:visited, a:hover, a:active {
         width: 90%;
         margin: auto;
         margin-top: 20px;
-        margin-left: 20px;
-    }
-    .portfolio-img {
-        width: 90%;
-    }
-    .portfolio-name {
-        width: 90%;
-    }
-    
-    h2 {
-        width: 90%;
-    }
-    #contact-info {
-        width: 90%;
-    }
-    #contact-name {
-        width: 100%;
-    }
-    #contact-email {
-        width: 100%;
-    }
-    #contact-message {
-        width: 100%;
     }
     #container {
-        width: 742px;
+        width: 700px;
     }
 }
 
