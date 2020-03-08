@@ -199,12 +199,52 @@ a:link, a:visited, a:hover, a:active {
         width: 700px;
     }
 }
-
+/*Can't seem to get the 640 to work. probably need to try a different extension*/
 @media screen and (max-width: 640) {
+    .main {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
     header {
         position: static;
     }
+    h1 {
+        position: relative;
+        margin: 0px;
+        width: 100%;
+        padding: 15px;
+    }
+    ul {
+        position: relative;
+    }
+    
+    h2 {
+        width: 85%;
+        margin: 20px;
+    }
+    .portfolio-item {
+        width: 80%;
+    }
+    .portfolio-name {
+        width: 100%;
+    }
+    .portfolio-img {
+        width: 100%;
+    }
     #container {
-        width: 580px;
+        width: 500px;
+    }
+    #contact-info {
+        width: 85%;
+    }
+    #contact-name {
+        width: 85%;
+    }
+    #contact-email {
+        width: 85%;
+    }
+    #contact-message {
+        width: 85%;
     }
 }
